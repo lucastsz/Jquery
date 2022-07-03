@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery</title>
+
+    <!-- Importar arquivo JQuery -->
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <!-- Script -->
+    <script>
+      //Ao carregar o documento
+      $(document).ready(function () {
+        //------------------------------------------
+        // // aula 01
+        // //variaveis
+        // var campo = $('input').val()
+        // var titulo = $('#titulo').html()
+        // var subtitulo = $('.subtitulo').html()
+        // alert(campo + titulo + subtitulo)
+        //------------------------------------------
+        // aula 02
+        // $('button').click(function () {
+        //   // adicionar o texto
+        //   $('h1').html('Voce clicou no botão')
+        // })
+        //------------------------------------------
+        //aula 03
+        // $('#ocultar').click(function () {
+        //   $('img').hide()
+        // })
+        // $('#exibir').click(function () {
+        //   $('img').show()
+        // })
+        //------------------------------------------
+        //aula 04
+        // //ocultar
+        // $('h1').css('display', 'none')
+        // //exibir
+        // $('#exibir').click(function () {
+        //   $('h1').fadeIn()
+        // })
+        // //ocultar
+        // $('#ocultar').click(function () {
+        //   $('h1').fadeOut(100)
+        // })
+        /*
+        tempo: default: 0,4s
+        
+        //------------------------------------------
+        //aula 05
+        $('img').attr('width', '500')
+        */
+      })
+    </script>
+  </head>
+  <body>
+    <!-- 
+    //aula 01 
+  
+      <input type="text" name="nome" id="inputNome" value="Campo Nome" />
+    <h1 id="titulo">Título em H1</h1>
+    <h2 class="subtitulo">Título em H2</h2>
+    
+    //aula 02
+    <h1></h1>
+    <button>Clique no botao</button>
+
+
+    //aula 03 - exibir e ocultar 
+    <button id="exibir">Exibir</button>
+    <button id="ocultar">Ocultar</button>
+    <br />
+    <div style="text-align: center">
+      <img src="logo_proway.png" alt="logo proway" />
+    </div>
+    
+    //aula 04
+    <button id="exibir">Exibir</button>
+    <button id="ocultar">Ocultar</button>
+    <hr />
+    <h1>Aprendendo Fade</h1>
+
+    //aula 05 - alterar atributos
+    -->
+    <img src="logo_proway.png" alt="logo proway" title="Logo ProWay" />
+  </body>
+</html>
